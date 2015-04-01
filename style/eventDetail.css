@@ -1,0 +1,11 @@
+@charset "utf-8";
+.gridTit, .gridSubTit {margin:0 8px; padding:0 10px; text-align:center; font-size:14px;}
+.gridSubTit {font-weight:normal; font-size:12px;}
+.time {margin-bottom:10px; text-align:center;}
+.pic {text-align:center;}
+.pic img, .gridDesc img {max-width:100%;}
+.btnWrap {padding:20px 10px;}
+.btnOrder, .btnDrive {float:left; width:115px; height:35px; line-height:35px; border-radius:5px; color:#fff; text-align:center; font-size:16px;}
+.btnDrive {float:right;}
+.gridDesc {padding-bottom:5px; text-align:justify;}
+.gridDesc, .btnWrap {margin:0 8px;}

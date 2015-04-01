@@ -1,0 +1,11 @@
+@charset "utf-8";
+.company, .position, .tel {margin:0 8px 10px 8px; padding:10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.company .ico, .position .ico, .tel .ico {position:relative; display:table-cell; width:40px; height:36px; min-width:40px; background:url(../images/company2.png) no-repeat 0 center; background-size:39px auto;}
+.position .ico {background-image:url(../images/position2.png);}
+.tel .ico {background-image:url(../images/tel2.png);}
+.company .info, .position .info, .tel .info {display:table-cell; width:2000px; padding-left:15px; font-size:14px; font-weight:normal; vertical-align:middle;}
+
+.gridTit {margin:0 8px 10px 8px; padding:0 10px; text-align:center; font-size:14px;}
+.pic {margin:0 8px 10px 8px; text-align:center;}
+.pic img, .gridDesc img {max-width:100%;}
+.gridDesc {margin:0 8px; padding-bottom:5px; text-align:justify;}

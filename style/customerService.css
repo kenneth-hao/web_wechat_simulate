@@ -1,0 +1,21 @@
+@charset "utf-8";
+.service, .customer {position:relative; margin-bottom:10px;}
+.service {padding:0 48px 0 60px;}
+.customer {padding:0 60px 0 48px;}
+.userFace {position:absolute; width:40px; height:40px; background-color:#fff; background-position:center center; background-repeat:no-repeat; background-size:40px auto;}
+.service .userFace {left:8px; top:0;}
+.customer .userFace {right:8px; top:0;}
+.service .content, .customer .content {position:relative; padding:10px; border-radius:5px; font-size:15px;}
+.service .content {float:left; background-color:#fff; border:1px solid #d1d1d1;}
+.customer .content {float:right; background-color:#a0e75a; border:1px solid #84d55a;}
+.service .content:before, .service .content:after, .customer .content:before, .customer .content:after {position:absolute; top:13px; display:block; content:""; border:7px solid rgba(255,255,255,0);}
+.service .content:before, .service .content:after {border-right:10px solid #d1d1d1;}
+.service .content:before {left:-17px;}
+.service .content:after {left:-16px; border-right-color:#fff;}
+.customer .content:before, .customer .content:after {border-left:10px solid #84d55a;}
+.customer .content:before {right:-17px;}
+.customer .content:after {right:-16px; border-left-color:#a0e75a;}
+.sendWrap {position:fixed; left:0; bottom:0; width:100%; padding:5px 78px 5px 8px; background-color:#fff; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.sendWrap .sendContent {display:block; width:100%; height:35px; padding:3px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; border:1px solid #d1d1d1; border-radius:3px; resize:none;}
+.sendWrap .btnSub {position:absolute; right:8px; top:5px; width:65px; height:35px; border:0; color:#fff; border-radius:3px; font-size:15px;}
+.sendWrapPlace {height:45px;}

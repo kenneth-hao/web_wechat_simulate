@@ -1,0 +1,8 @@
+@charset "utf-8";
+#header {margin-bottom:4px;}
+.grid {margin:0 20px; padding:10px 0; border-bottom:1px solid #a1a1a1;}
+.grid:last-child {border:0;}
+.grid h2 {margin-bottom:5px; font-size:14px;}
+.pic img {max-width:100%;}
+.gridDesc {padding-left:60px;}
+.gridDesc .leftTxt {float:left; margin-left:-60px;}

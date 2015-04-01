@@ -1,0 +1,12 @@
+@charset "utf-8";
+.timeGroup {text-align:center;}
+.timeGroup span {display:inline-block; background-color:#7e7f7f; padding:1px 5px; border-radius:3px; color:#fff;}
+.grid {margin:0 20px 10px 20px; padding:10px 0; border-bottom:1px solid #810101;}
+.gridTit {font-weight:normal; font-size:14px;}
+.pic img {max-width:100%;}
+.eventTit {margin-bottom:5px; font-size:14px;}
+.eventInfo .time {float:left;}
+.distance {float:right; padding-left:20px; background:url(../images/distanceIco.png) no-repeat 5px center; background-size:12px 15px; color:#980000; vertical-align:middle; font-size:13px;}
+.toolsWrap {padding-top:5px;}
+.btnTel, .btnApply {float:left; width:105px; height:30px; line-height:30px; border-radius:3px; color:#fff; text-align:center; font-size:16px;}
+.btnApply {float:right;}

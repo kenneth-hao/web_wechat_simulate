@@ -1,0 +1,123 @@
+@charset "utf-8";
+#addDealer, #addCarType {display:block; height:65px; line-height:65px; margin:0 8px 10px 8px; padding-left:65px; border:1px solid #fff; box-shadow:0 0 3px #999a9b; font-size:14px; font-weight:bold;}
+#addDealer span, #addCarType span {float:left; width:42px; height:65px; margin-right:15px; background:url(../images/selectDealer.png) no-repeat center center; background-size:auto 34px; vertical-align:middle;}
+#addCarType span {background-image:url(../images/selectCar.png);}
+#dealer {position:relative; margin:0 8px 10px 8px; padding:10px 30px 10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b; text-align:justify;}
+#dealer dt, .dealer dt {font-size:14px; font-weight:bold;}
+#dealer dd, .dealer dd {padding-left:40px;}
+#dealer .leftTxt, .dealer .leftTxt {float:left; margin-left:-40px;}
+#dealer .ico, .brand .ico {position:absolute; right:10px; top:50%; width:17px; height:17px; margin-top:-8px; background:url(../images/arrowRight3.png) no-repeat; background-size:17px 17px;}
+
+.brand {position:relative; margin:0 8px 10px 8px; padding:10px 0; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.brand .carImg, .brand .carName {display:table-cell;}
+.brand .carImg {width:120px; min-width:120px; text-align:center; vertical-align:middle;}
+.brand .carName {width:2000px; vertical-align:middle; font-size:14px;}
+.brand .ico {top:30px;}
+.typeWrap {display:none; margin:0 8px; padding-top:5px;}
+.field {width:100%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:5px 4px; border:1px solid #c0c0c0; box-shadow:inset 0 2px 3px #d7d7d7;}
+
+@keyframes show
+{
+from {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+to {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+}
+@-moz-keyframes show
+{
+from {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+to {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+}
+
+@-webkit-keyframes show
+{
+from {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+to {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+}
+
+@-o-keyframes show
+{
+from {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+to {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+}
+
+@keyframes hide
+{
+from {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+to {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+}
+@-moz-keyframes hide
+{
+from {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+to {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+}
+
+@-webkit-keyframes hide
+{
+from {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+to {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+}
+
+@-o-keyframes hide
+{
+from {-moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg);}
+to {-moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+}
+.showAnimate
+{
+	animation:show 0.5s;
+	-moz-animation:show 0.5s;
+	-webkit-animation:show 0.5s;
+	-o-animation:show 0.5s;
+	-moz-animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+.hideAnimate
+{
+	animation:hide 0.5s;
+	-moz-animation:hide 0.5s;
+	-webkit-animation:hide 0.5s;
+	-o-animation:hide 0.5s;
+	-moz-animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+span.privilegeTit {display:inline-block; width:80px;}
+.enjoyTit {margin:0 8px 10px 8px; padding:0 15px; color:#11537c; font-size:14px;}
+.privilege, .price, .counselor, .calculator, .dictionary, .promotion {margin:0 8px 10px 8px; padding:10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.privilege .ico, .price .ico, .counselor .ico, .calculator .ico, .dictionary .ico, .promotion .ico {position:relative; display:table-cell; width:40px; height:36px; min-width:40px; background:url(../images/eventIco2.png) no-repeat 0 center; background-size:39px auto;}
+.price .ico {background-image:url(../images/priceIco2.png);}
+.counselor .ico {background-image:url(../images/counselorIco2.png);}
+.calculator .ico {background-image:url(../images/calculator2.png);}
+.dictionary .ico {background-image:url(../images/dictionary2.png);}
+.promotion .ico {background-image:url(../images/promotionIco.png);}
+.disable .ico {margin-top:0;}
+.disable .privilege .ico {background-image:url(../images/eventIco.png);}
+.disable .price .ico {background-image:url(../images/priceIco.png);}
+.disable .counselor .ico {background-image:url(../images/counselorIco.png);}
+.disable .calculator .ico {background-image:url(../images/calculator.png);}
+.disable .dictionary .ico {background-image:url(../images/dictionary.png);}
+.desc, .enjoyWrap .info {display:table-cell; width:80px; padding-left:7px; font-size:13px; font-weight:normal; vertical-align:middle;}
+.disable .desc, .desc2000 {width:2000px;}
+.enjoyWrap .info {width:2000px; padding:0; white-space:nowrap;}
+.privilegeTit {font-size:14px;}
+.counselor  {position:relative;}
+.counselor .tel {position:absolute; right:10px; top:50%; width:31px; height:31px; margin-top:-15px; background:url(../images/telIco.png) no-repeat 0 0; background-size:31px 31px;}
+.ico img {position:absolute; left:30px; top:-5px;}
+
+/*dealerSelect*/
+.dealer {position:relative; margin:0 8px 10px 8px; padding:10px 35px 10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b; text-align:justify;}
+.dealer .ico, .dealer .icon {position:absolute; right:10px; top:50%; width:20px; height:20px; margin-top:-10px; background:url(../images/addIco.png) no-repeat 0 0; background-size:20px 20px;}
+.dealer .icon {background-image:url(../images/arrowRight3.png);}
+.distance {padding:1px 0 1px 15px; background:url(../images/distanceIco.png) no-repeat 0 center; background-size:12px 15px; color:#980000; vertical-align:middle; font-size:13px;}
+
+/*index2*/
+.attention {padding:0 10px 10px 10px;}
+.attention span {color:#900;}
+.dealerList .dealer {padding:10px 15px;}
+.dealerList dl {padding-right:15px;}
+.dealer .btnRed {display:none; position:absolute; right:10px; top:50%; width:70px; height:50px; line-height:50px; margin-top:-25px; color:#fff; border-radius:3px; text-align:center; font-size:18px;}
+.dealerList .dealer dt, .dealerList .dealer dd {white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.wayIco {position:absolute; top:-8px; left:0;}

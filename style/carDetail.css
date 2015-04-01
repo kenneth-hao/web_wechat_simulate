@@ -1,0 +1,24 @@
+@charset "utf-8";
+.gridTit {margin:0 8px 15px 8px; font-size:14px; text-align:center;}
+.pic {text-align:center;}
+.pic img {max-width:100%;}
+.table, .table2 {margin:0 8px 10px 8px; border:1px solid #fff;}
+.table table, .table2 table {width:100%;}
+.table th, .table td, .table2 th, .table2 td {padding:5px; border:1px solid #b3b3b3;}
+.table th {background-color:#d5d5d5; text-align:center;}
+.table td {background-color:#f3f3f3;}
+.table2 th {background-color:#f3f3f3; text-align:center;}
+.table2 td {background-color:#d5d5d5;}
+.table2 .tab {background-color:#b4b3b3; color:#fff;}
+.btnWrap {margin:0 8px; padding:20px 10px;}
+.btnOrder, .btnDrive {float:left; width:115px; height:35px; line-height:35px; border-radius:5px; color:#fff; text-align:center; font-size:16px;}
+.btnDrive {float:right;}
+.swiper {position:relative; width:180px; padding:0 10px;}
+.swiper-container {width:180px; height:50px; text-align: center;}
+.colorWrap {float:left; display:inline; width:45px; text-align:center;}
+.colorWrap .color {display:block; width:25px; height:25px; margin:0 auto;}
+.swiper i{position:absolute; top:5px; width: 12px; height: 16px; background-size:12px 16px;}
+.arrow-left{left:0; background:url(../images/arrowLeft2.png) no-repeat;}
+.arrow-right{right:0; background:url(../images/arrowRight2.png) no-repeat;}
+.pagination {display:none;}
+.carTit {margin:0 8px; padding:0 10px; font-size:16px;}

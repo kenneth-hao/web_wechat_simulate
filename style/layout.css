@@ -1,0 +1,74 @@
+@charset "utf-8";
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, button,textarea, p, blockquote, th, td {margin:0; padding:0; word-wrap:break-word; -webkit-text-size-adjust:none; -webkit-text-size-adjust:none; -moz-text-size-adjust:none; -ms-text-size-adjust:none; text-size-adjust:none;}
+body {color:#333; font:12px/1.5 STHeiti,Helvetica,Arial;
+	background-color:#dadada;
+	background:-webkit-gradient(linear, 0 1%, 0 100%, color-stop(0, #9ea1a4), color-stop(75px,#dadada), color-stop(1,#dadada));
+	background:-moz-linear-gradient(0px 0px -90deg, #9ea1a4 0, #dadada 75px, #dadada 100%);
+	background:-o-linear-gradient(top, #9ea1a4 0%,#dadada 75px,#dadada 100%);
+	background:-ms-linear-gradient(top, #9ea1a4 0%,#dadada 75px,#dadada 100%);
+	background:linear-gradient(top, #9ea1a4 0%,#dadada 75px,#dadada 100%);
+}
+ol,ul {list-style:none;}
+fieldset,img {border:0;}
+img {max-width:100%;}
+abbr, acronym {border:0; font-variant:normal;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+address, caption, cite, code, dfn, em, var {font-style:normal;}
+table {border-collapse:collapse;}
+caption,th {text-align:left;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+a {color:#333; text-decoration:none; outline:none;}
+input, button, textarea, select, optgroup, option {font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit;}
+input, button, textarea, select {*font-size:100%;}
+
+.left {float:left;}
+.right {float:right;}
+.clear {clear:both;}
+.clearfix:after {content:"."; clear:both; display:block; height:0; font-size:0; visibility:hidden; overflow:hidden;}
+.clearfix {display:block;}
+* html .clearfix {height:1%;}
+*+html .clearfix{min-height:1%;}
+#overlay {display:none; position:fixed; _position:absolute; left:0; top:0; width:100%; height:100%; z-index:9900; _height:expression(Math.max((document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight ), document.documentElement.clientHeight)+ 'px'); background-color:#000; opacity:0.8; filter:Alpha(Opacity=80);}
+.colorRed {color:#900;}
+.colorBlue {color:#01426c;}
+
+#header {
+	position:relative; margin-bottom:14px; padding:5px 25px;
+	background-color:#1f2226;
+	background:-webkit-gradient(linear, 0 1%, 0 100%, color-stop(0, #272d31), color-stop(0.5,#1f2226), color-stop(1,#131517));
+	background:-moz-linear-gradient(0px 0px -90deg, #272d31 0, #1f2226 50%, #131517 100%);
+	background:-o-linear-gradient(top, #272d31 0%,#1f2226 50%,#131517 100%);
+	background:-ms-linear-gradient(top, #272d31 0%,#1f2226 50%,#131517 100%);
+	background:linear-gradient(top, #272d31 0%,#1f2226 50%,#131517 100%);
+}
+#logo {position:absolute; left:10px;}
+.headerTit {color:#fff; font-size:16px; text-align:center;}
+.headerTel {position:absolute; right:10px; top:50%; width:29px; margin-top:-10px;}
+
+.grayBackground {
+	background-color:#cccccc;
+	background:-webkit-gradient(linear, 0 1%, 0 100%, color-stop(0, #d9dada), color-stop(0.5,#cccccc), color-stop(1,#bfbfbf));
+	background:-moz-linear-gradient(0px 0px -90deg, #d9dada 0, #cccccc 50%, #bfbfbf 100%);
+	background:-o-linear-gradient(top, #d9dada 0%,#cccccc 50%,#bfbfbf 100%);
+	background:-ms-linear-gradient(top, #d9dada 0%,#cccccc 50%,#bfbfbf 100%);
+	background:linear-gradient(top, #d9dada 0%,#cccccc 50%,#bfbfbf 100%);
+}
+.btnRed {
+	background-color:#a31212;
+	background:-webkit-gradient(linear, 0 1%, 0 100%, color-stop(0, #c31414), color-stop(0.5,#a31212), color-stop(1,#820f0f));
+	background:-moz-linear-gradient(0px 0px -90deg, #c31414 0, #a31212 50%, #820f0f 100%);
+	background:-o-linear-gradient(top, #c31414 0%,#a31212 50%,#820f0f 100%);
+	background:-ms-linear-gradient(top, #c31414 0%,#a31212 50%,#820f0f 100%);
+	background:linear-gradient(top, #c31414 0%,#a31212 50%,#820f0f 100%);
+}
+.btnGray {
+	background-color:#2e2e2e;
+	background:-webkit-gradient(linear, 0 1%, 0 100%, color-stop(0, #4d4d4d), color-stop(0.5,#2e2e2e), color-stop(1,#0d0d0d));
+	background:-moz-linear-gradient(0px 0px -90deg, #4d4d4d 0, #2e2e2e 50%, #0d0d0d 100%);
+	background:-o-linear-gradient(top, #4d4d4d 0%,#2e2e2e 50%,#0d0d0d 100%);
+	background:-ms-linear-gradient(top, #4d4d4d 0%,#2e2e2e 50%,#0d0d0d 100%);
+	background:linear-gradient(top, #4d4d4d 0%,#2e2e2e 50%,#0d0d0d 100%);
+}
+
+select.error, input.error, textarea.error {border-color:#900; box-shadow:0 0 3px #900;}

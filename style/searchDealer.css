@@ -1,0 +1,16 @@
+@charset "utf-8";
+.headerSearchResult {text-align:center;}
+.headerSearchResult a {padding-right:20px; background:url(../images/arrowBottom.png) no-repeat right center; background-size:18px 17px; color:#fff; font-size:16px;}
+.headerSearchResult em {color:#900; font-weight:normal;}
+.btnSub {width:50px; height:30px; border:0; border-radius:3px; color:#fff;}
+.grid {position:relative; margin:0 8px 10px 8px; padding:10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.grid dl {margin-bottom:5px; text-align:justify;}
+.grid dt {padding-bottom:2px; font-size:14px; font-weight:bold;}
+.grid dd {padding:0 25px 0 40px;}
+.grid .leftTxt {float:left; width:40px; margin-left:-40px; white-space:nowrap;}
+.distance {margin-top:3px; padding-left:15px; background:url(../images/distanceIco.png) no-repeat 0 center; background-size:12px 15px; color:#980000; vertical-align:middle; font-size:13px;}
+.grid .ico, .addDealer .ico, .addDealer .icon {position: absolute; right: 10px; top: 50%; width: 16px; height: 23px; margin-top: -12px; background: url(../images/arrowRight.png) no-repeat 0 0; background-size: 16px auto;}
+.addDealer .ico, .addDealer .icon {width:20px; height:20px; margin-top:-10px; background-image:url(../images/addIco.png); background-size:20px 20px;}
+.addDealer .icon {background-image:url(../images/selectedIco.png);}
+.wayIco {position:absolute; top:-8px; left:0;}
+.openFlag {position:absolute; right:-4px; top:-4px;}

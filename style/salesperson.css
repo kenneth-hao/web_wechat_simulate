@@ -1,0 +1,6 @@
+@charset "utf-8";
+.salesperson {margin:0 8px 10px 8px; padding:0 10px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.salesperson .ico {display:table-cell; width: 70px; min-width: 70px; height: 50px; background-position: 18px center; background-size: 30px auto; background-repeat: no-repeat; text-align: center; vertical-align: middle;}
+.salespersonName {display: table-cell; min-height:50px; vertical-align: middle; font-size:14px;}
+.male .ico {background-image: url(../images/male.png);}
+.female .ico {background-image: url(../images/female.png);}

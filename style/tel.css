@@ -1,0 +1,5 @@
+@charset "utf-8";
+.gridTit {margin:0 8px 5px 8px; color:#11537c; font-size:14px;}
+.grid {position:relative; margin:0 8px 10px 8px; padding:10px 35px 10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b; text-align:justify;}
+.grid .ico {position:absolute; right:10px; top:50%; width:31px; height:31px; margin-top:-15px; background:url(../images/telIco.png) no-repeat 0 0; background-size:31px 31px;}
+.grid .hotline, .grid a {color:#474747; font-size:14px;}

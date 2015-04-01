@@ -1,0 +1,6 @@
+@charset "utf-8";
+.grid {position:relative; margin:0 8px 10px 8px; padding: 10px 30px 10px 10px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.grid dt {font-size:14px; font-weight:bold;}
+.grid dd {padding-left:60px;}
+.grid .leftTxt {float:left; width: 60px; margin-left:-60px; white-space:nowrap;}
+.grid .ico {position: absolute; right: 10px; top: 50%; width: 16px; height: 23px; margin-top: -12px; background: url(../images/arrowRight.png) no-repeat 0 0; background-size: 16px auto;}

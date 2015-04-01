@@ -1,0 +1,15 @@
+@charset "utf-8";
+.grayBackground {margin:0 8px 10px 8px; padding:10px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.localLabel {color:#3e3e3e;}
+.localCity {float:left; padding:3px 15px; border-radius:5px; color:#fff; background:#0082d0;}
+.localCity:hover {color:#fff; text-decoration:none;}
+.btnRefresh {float:right; padding:3px 0 3px 20px; background:url(../images/refresh.png) no-repeat left center; color:#0082d0;}
+.red {color:#900;}
+.desc {display:none;color:#900;}
+.citySearchTit, .hotCityTit {margin-bottom:5px; font-size:13px;}
+.hotCity {padding:0 0 10px 0;}
+.hotCityTit {padding:5px 10px; border-bottom:1px solid #fff;}
+.cityWrap {display:-moz-box; display:-webkit-box; display:box;}
+.cityWrap select {display:block; -moz-box-flex:1; width:50%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; box-sizing:border-box;}
+.cityList {padding:0 10px;}
+.cityList li {float:left; display:inline; width:24.9%; padding:3px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}

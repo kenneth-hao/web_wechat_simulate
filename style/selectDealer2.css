@@ -1,0 +1,17 @@
+@charset "utf-8";
+.cityFilter {display:-moz-box; display:-webkit-box; display:box; margin:0 8px 10px 8px;}
+.cityFilter h2, .cityFilter select {-moz-box-flex:1.0; -webkit-box-flex:1.0; box-flex:1.0; font-size:14px;}
+.cityFilter h2 {padding:3px 5px 0 0; text-align:justify;}
+.dealer {position:relative; margin:0 8px 10px 8px; padding:10px 15px; border:1px solid #fff; box-shadow:0 0 3px #999a9b; text-align:justify;}
+.dealer dt {font-size:14px; font-weight:bold;}
+.dealer dd {padding-left:40px;}
+.dealer .leftTxt {float:left; margin-left:-40px;}
+.brand .ico {position:absolute; right:10px; top:50%; width:17px; height:17px; margin-top:-8px; background:url(../images/arrowRight3.png) no-repeat; background-size:17px 17px;}
+.distance {padding:1px 0 1px 15px; background:url(../images/distanceIco.png) no-repeat 0 center; background-size:12px 15px; color:#980000; vertical-align:middle; font-size:13px;}
+
+.attention {position:relative; padding-left:34px;}
+.attentionIco {position:absolute; left:0; top:0; width:24px; height:100%; background:#64a758 url(../images/attentionIco.png) no-repeat center center; background-size:14px auto; text-indent:-999px; overflow:hidden;}
+.btnMore {width:100%; margin-bottom:10px; padding:10px 0; background-color:#efefef; border:0; color:#555; text-shadow:0 0 1px #b8b8b8;}
+
+.noservice {margin:20px 30px 10px 30px; padding:15px 20px; border:1px solid #932b3c; box-shadow:0 0 3px #e2d6d8; font-size:14px; text-align:justify;}
+.noservice .other {color:#932b3c;}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+.form {margin:0 8px 10px 8px; padding:10px; border:1px solid #fff; box-shadow:0 0 3px #999a9b;}
+.dealerName {margin-bottom:10px; font-size:15px;}
+.formTit {margin-bottom:10px; padding:0 5px 5px 5px; border-bottom:1px solid #fff; font-size:14px;}
+.field {width:100%; margin-bottom:10px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:5px 4px; border:1px solid #c0c0c0; box-shadow:inset 0 2px 3px #d7d7d7;}
+select.field {height:26px;}
+.btnSub {display:block; width:120px; height:35px; margin:0 auto; border:0; border-radius:3px; color:#fff; font-size:16px; text-align:center;}
